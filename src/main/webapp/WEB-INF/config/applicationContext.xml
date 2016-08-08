@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <import resource="infrastructure.xml"/>
+  <import resource="beans.xml"/>
+
+  <!-- 依赖注入激活 -->
+  <context:annotation-config/>
+
+  <!-- 只扫描包含@Controller的类-->
+  <context:component-scan base-package="com.wanke.nanjidao.controller">
+    <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+  </context:component-scan>
+
+  <!-- 扫描服务层 -->
+  <context:component-scan base-package="com.wanke.nanjidao.service"/>
+  <!-- 扫描持久层 -->
+  <context:component-scan base-package="com.wanke.nanjidao.dao"/>
+  <!-- 扫描表单层 -->
+  <context:component-scan base-package="com.wanke.nanjidao.entity"/>
+
+  <!-- 关联过滤器 -->
+  <bean id="mySecurityFilter" class="com.wanke.nanjidao.filter.manage.CheckUserInfo"/>
+
+</beans>

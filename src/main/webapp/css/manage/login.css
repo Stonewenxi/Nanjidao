@@ -1,0 +1,76 @@
+html {
+    text-align: center;
+}
+
+body {
+    font-family: "Microsoft Yahei", serif;
+    font-size: 20px;
+    margin: 0;
+    background: #fff url(../../images/manage/login_bg.jpg) 50% 0 no-repeat;
+}
+
+label {
+    color: #efefef;
+    line-height: 50px;
+}
+
+input {
+    width: 200px;
+    height: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    background: #fff;
+    font-size: 16px;
+}
+
+.title {
+    color: #dddddd;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.userLogin {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgba(220, 241, 255, 0.50);
+    width: 350px;
+    padding: 30px;
+    height: 260px;
+    margin: auto;
+}
+
+.userAdmin {
+    padding: 18px 25px;
+    margin-bottom: 5px;
+}
+
+.userPassword {
+    padding: 18px 25px;
+    margin-bottom: 5px;
+}
+
+.userButton {
+    margin-top: 15px;
+    background-color: #44c767;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    color: #ffffff;
+    font-family: Arial, serif;
+    font-size: 19px;
+    padding: 8px 46px;
+    text-decoration: none;
+    text-shadow: 0 0 0 #2f6627;
+    border: 0;
+}
+
+.userButton:hover {
+    background-color: #5cbf2a;
+}
+
+.userButton:active {
+    position: relative;
+    top: 1px;
+}

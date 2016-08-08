@@ -1,0 +1,67 @@
+/* iCheck plugin Minimal skin, red
+----------------------------------- */
+.icheckbox_minimal-red,
+.iradio_minimal-red {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 27px;
+    height: 27px;
+    background: url(red.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal-red {
+    background-position: 0 0;
+}
+
+.icheckbox_minimal-red.hover {
+    background-position: -30px 0;
+}
+
+.icheckbox_minimal-red.checked {
+    background-position: -60px 0;
+}
+
+.icheckbox_minimal-red.disabled {
+    background-position: -90px 0;
+    cursor: default;
+}
+
+.icheckbox_minimal-red.checked.disabled {
+    background-position: -120px 0;
+}
+
+.iradio_minimal-red {
+    background-position: -150px 0;
+}
+
+.iradio_minimal-red.hover {
+    background-position: -180px 0;
+}
+
+.iradio_minimal-red.checked {
+    background-position: -210px 0;
+}
+
+.iradio_minimal-red.disabled {
+    background-position: -240px 0;
+    cursor: default;
+}
+
+.iradio_minimal-red.checked.disabled {
+    background-position: -270px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_minimal-red,
+    .iradio_minimal-red {
+        background-image: url(red@2x.png);
+        -webkit-background-size: 300px 30px;
+        background-size: 300px 30px;
+    }
+}

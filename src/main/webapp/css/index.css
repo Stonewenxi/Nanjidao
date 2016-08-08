@@ -1,0 +1,274 @@
+/*全局设定*/
+html {
+    font-size: 100px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+}
+
+/*全局设定以上*/
+
+/*网站Logo区*/
+.logo {
+    height: 0.64rem;
+    line-height: 0.64rem;
+    padding-left: 0.26rem;
+}
+
+.logo button {
+    float: right;
+    margin-top: 0.1rem;
+    margin-right: 0.4rem;
+    width: 0.8rem;
+    height: 0.4rem;
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+    color: #ffffff;
+    text-align: center;
+    background: #F14D4C;
+    border: 0;
+    border-radius: 0.04rem;;
+}
+
+/*网站Logo:区以上*/
+
+/*题图区*/
+.themePic {
+    height: 3rem;
+    background: url(../images/InternetThemePic.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.themePic header {
+    margin-top: 1.5rem;
+    margin-left: 0.38rem;
+    color: #666666;
+}
+
+.themePic header h1 {
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+
+/*题图区以上*/
+
+/*主内容区*/
+.content {
+    width: 7.2rem;
+    overflow: hidden;
+}
+
+/*主内容区左边*/
+.contentDetail {
+    float: left;
+    padding-bottom: 0.4rem;
+    width: 4rem;
+    background-image: -webkit-linear-gradient(90deg, rgb(155, 176, 192) 0%, rgb(108, 123, 134) 100%);
+    background-image: -moz-linear-gradient(90deg, rgb(155, 176, 192) 0%, rgb(108, 123, 134) 100%);
+    background-image: -o-linear-gradient(90deg, rgb(155, 176, 192) 0%, rgb(108, 123, 134) 100%);
+    z-index: 1;
+}
+
+.contentDetailCollapsed {
+    height: 1.4rem;
+    overflow: hidden;
+}
+
+.contentDetailCollapsed header {
+    overflow: hidden;
+    margin-top: 0.3rem;
+    color: #ffffff;
+}
+
+.contentDetailCollapsed header h1 {
+    float: left;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.contentDetailCollapsed header h2 {
+    float: left;
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+
+.contentDetailCollapsed p {
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+}
+
+.contentDetailExpanded {
+    overflow: hidden;
+    min-height: 4.44rem;
+    background-image: -webkit-linear-gradient(90deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    background-image: -moz-linear-gradient(90deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    background-image: -o-linear-gradient(90deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    position: relative;
+}
+
+.contentDetailExpanded .logoCurrentTriangle {
+    position: absolute;
+    top: 0.6rem;
+    right: 0;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url(../images/currentLogoIndicator.png) no-repeat;
+    background-size: contain;
+}
+
+.contentDetailExpanded h1 {
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    font-size: 0.52rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.contentDetailExpanded h2 {
+    margin-top: 0.18rem;
+    margin-left: 0.3rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.contentDetailExpanded p {
+    margin-top: 0.18rem;
+    margin-left: 0.3rem;
+    width: 3.4rem;
+    color: #ffffff;
+}
+
+.contentDetailExpanded button {
+    overflow: hidden;
+    margin-top: 0.6rem;
+    margin-left: 0.3rem;
+    width: 2.11rem;
+    height: 0.6rem;
+    background: #ffffff;
+    border: 0;
+    border-radius: 0.04rem;
+    margin-bottom: 0.2rem;
+}
+
+.contentDetailExpanded button div {
+    float: left;
+    padding-left: 0.1rem;
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+    color: #EE1438;
+    line-height: 0.6rem;
+    text-align: center;
+}
+
+/*主内容区左边以上*/
+
+/*主内容区右边*/
+.contentLogo {
+    width: 3.2rem;
+    overflow: hidden;
+}
+
+.contentLogo figure {
+    overflow: hidden;
+    height: 1.4rem;
+    width: 3.2rem;
+    text-align: center;
+    position: relative;
+}
+
+.contentLogo .logoPic {
+    margin-top: 0.1rem;
+    margin-left: 0.4rem;
+    width: 2.4rem;
+    height: 0.7rem;
+}
+
+.contentLogo figure figcaption {
+    overflow: hidden;
+    margin-left: 0.4rem;
+    margin-top: 0.04rem;
+}
+
+.contentLogo figure figcaption .logoCurrentSquare {
+    float: left;
+    margin-top: 0.1rem;
+    margin-right: 0.1rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #EE1438;
+}
+
+/*.contentLogo figure figcaption h1, .contentLogo figure figcaption h2 {*/
+/*font-size: 0.2rem;*/
+/*float: left;*/
+/*color: #666666;*/
+/*}*/
+
+/*.contentLogo figure figcaption h2 {*/
+/*font-weight: normal;*/
+/*}*/
+
+.contentLogo figure figcaption p {
+    text-align: left;
+    float: left;
+    width: 2.4rem;
+}
+
+.contentLogo figure figcaption .title {
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #666666;
+}
+
+.contentLogo figure figcaption .subTitle {
+    font-size: 0.18rem;
+    color: #666666;
+}
+
+.contentLogo .logoSeparator {
+    width: 2rem;
+    height: 1px;
+    margin-left: 0.6rem;
+    background: #E9E9E9;
+}
+
+/*主内容区右边以上*/
+
+/*主内容区以上*/
+
+/*我要融资*/
+.submit {
+    position: fixed;
+    bottom: 0;
+    height: 0.7rem;
+    width: 7.2rem;
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.submit button {
+    margin-top: 0.1rem;
+    width: 4rem;
+    height: 0.5rem;
+    font-size: 0.28rem;
+    font-family: "微软雅黑", serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    background-image: -webkit-linear-gradient(0deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    background-image: -moz-linear-gradient(0deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    background-image: -o-linear-gradient(0deg, rgb(238, 20, 56) 0%, rgb(241, 69, 99) 100%);
+    border: 0;
+    border-radius: 0.04rem;
+}
+
+/*我要融资以上*/

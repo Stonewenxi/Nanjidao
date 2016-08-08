@@ -1,0 +1,254 @@
+/*全局设定*/
+html {
+    font-size: 100px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+}
+
+/*全局设定以上*/
+
+/*网站Logo区*/
+.logo {
+    height: 0.64rem;
+    line-height: 0.64rem;
+    padding-left: 0.26rem;
+}
+
+.logo button {
+    float: right;
+    margin-top: 0.1rem;
+    margin-right: 0.4rem;
+    width: 0.8rem;
+    height: 0.4rem;
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+    color: #ffffff;
+    text-align: center;
+    background: #F14D4C;
+    border: 0;
+    border-radius: 0.04rem;
+}
+
+/*网站Logo区以上*/
+
+/*项目Logo展示区*/
+.projectLogo {
+    height: 3rem;
+    background: url(../images/projectLogoBg.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectLogo button {
+    width: 1.0rem;
+    height: 0.4rem;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+    font-size: 0.2rem;
+    font-family: "微软雅黑", serif;
+    color: #F14D4C;
+    background: #ffffff;
+    border: solid 1px #F14D4C;
+    border-radius: 0.04rem;
+}
+
+.projectLogo header {
+    margin-top: 0.2rem;
+    overflow: hidden;
+    width: 7.2rem;
+    text-align: center;
+
+}
+
+.projectLogo header .projectLogoPic {
+    width: 3.7rem;
+    height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectLogo aside {
+    position: absolute;
+    bottom: 0;
+    width: 7.2rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #F14D4C;
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.75)
+}
+
+/*项目Logo展示区以上*/
+
+/*主内容区*/
+.content {
+    width: 7.2rem;
+    overflow: hidden;
+}
+
+/*公司/项目简介文字*/
+.content .projectOverview {
+    width: 7.2rem;
+    padding-bottom: 0.3rem;
+    background: #F14D4C;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.content .projectOverview header {
+    margin-top: 0.35rem;
+    margin-left: 0.35rem;
+    overflow: hidden;
+}
+
+.content .projectOverview header h1 {
+    float: left;
+    font-size: 0.3rem;
+}
+
+.content .projectOverview header h2 {
+    float: left;
+    font-weight: normal;
+}
+
+.content .projectOverview p {
+    margin-top: 0.2rem;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+/*公司/项目简介文字以上*/
+
+/*主内容区以上*/
+
+/*请留下联系方式按钮*/
+.submit {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    width: 7.2rem;
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.submit button {
+    margin-top: 0.1rem;
+    width: 4rem;
+    height: 0.5rem;
+    font-size: 0.28rem;
+    font-family: "微软雅黑", serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    background: #F14D4C;
+    border: 0;
+    border-radius: 0.04rem;
+}
+
+/*请留下联系方式按钮以上*/
+
+/*主内容区*/
+.lightbox {
+    width: 5.2rem;
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -2.6rem;
+    background: #FFFFFF;
+}
+
+.lightbox header {
+    height: 0.7rem;
+    background: #F14D4C;
+    overflow: hidden;
+    position: relative;
+}
+
+.lightbox header h1 {
+    text-align: center;
+    line-height: 0.7rem;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lightbox header button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0.7rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    color: #FFFFFF;
+    font-size: 0.24rem;
+    background: 0;
+    border: 0;
+}
+
+.contactForm {
+    overflow: hidden;
+}
+
+.contactForm header {
+    margin-left: 0.44rem;
+    margin-right: 0.44rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #666666;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E9E9E9;
+
+}
+
+.contactForm .contactFormOne {
+    margin-left: 0.44rem;
+    margin-right: 0.44rem;
+    margin-top: 0.4rem;
+}
+
+.contactForm .contactFormOne h1 {
+    float: left;
+    color: #666666;
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+
+.contactForm .contactFormOne .formText {
+    margin-left: 0.2rem;
+    width: 2.8rem;
+    border: 0;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.lightbox .submit {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    width: 5.2rem;
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.lightbox .submit button {
+    margin-top: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    height: 0.5rem;
+    font-size: 0.28rem;
+    font-family: "微软雅黑", serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    background: #F14D4C;
+    border: 0;
+    border-radius: 0.04rem;
+}
